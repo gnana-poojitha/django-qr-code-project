@@ -1,3 +1,4 @@
+
 """
 URL configuration for django_qr project.
 
@@ -25,3 +26,9 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', views.generate_qr_code, name='generate_qr_code')
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+
+
+
+
